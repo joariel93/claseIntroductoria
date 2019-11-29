@@ -16,10 +16,16 @@ namespace pruebaOrquesta
 
       Instrumento instrumento = new Instrumento("Trompeta", Instrumento.TipoInstrumento.Aire);
 
-      Musico musicoPrincipal = new Musico("Joaquin", "Calero", 25, instrumento, or);
-      Console.WriteLine("Nombre y apellido del musico: {0} {1}, Edad {2}\nInstrumento: {3}\n{4}", musicoPrincipal.nombre, musicoPrincipal.apellido, musicoPrincipal.edad, musicoPrincipal.instrumento.nombre, musicoPrincipal.orquesta.getOrquestaToString());
+      Musico musicoPrincipal = new Musico("Joaquin", "Calero", 25, instrumento);
+      Console.WriteLine("Nombre y apellido del musico: {0} {1}, Edad {2}\nInstrumento: {3}\n", musicoPrincipal.nombre, musicoPrincipal.apellido, musicoPrincipal.edad, musicoPrincipal.instrumento.nombre);
       Console.ReadLine();
 
+      Musico musicoSecundario = new Musico("Alvaro", "Calero", 21, instrumento);
+
+      or.musicos.Add(musicoPrincipal);
+      or.musicos.Add(musicoSecundario);
+
+      Orquesta.ImprimirOrquesta(or);
     }
   }
 }

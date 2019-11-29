@@ -11,6 +11,7 @@ namespace pruebaOrquesta
     public string nombre;
     public string lugar;
     public TipoOrquesta tipo;
+    public List<Musico> musicos;
 
     public enum TipoOrquesta { Sinfonica, Camara, Filarmonica}
 
@@ -21,6 +22,7 @@ namespace pruebaOrquesta
       this.nombre = nombre;
       this.lugar = lugar;
       this.tipo = orquesta;
+      this.musicos = new List<Musico>();
     }
 
     public void setNombre (string nombre)
@@ -59,6 +61,24 @@ namespace pruebaOrquesta
 
       sb.AppendFormat("Nombre de Orquesta: {0}, Lugar: {1}, Tipo: {2}\n", this.nombre, this.lugar, this.tipo);
       return sb.ToString();
+    }
+
+    public static void ImprimirOrquesta(Orquesta or)
+    {
+      StringBuilder sb = new StringBuilder();
+      int i;
+      sb.AppendLine(or.getOrquestaToString());
+      if (or.musicos.Count > 0)
+      {
+        sb.AppendFormat("Lista de Musicos\n");
+        foreach (Musico element in or.musicos)
+        {
+          sb.AppendFormat("Musico: {0}\n",element.nombre);
+          sb.AppendFormat("Instrumento: {0}\n", element.instrumento.nombre);
+        }
+      }
+      Console.WriteLine("{0}", sb.ToString());
+      Console.ReadLine();
     }
   }
 }

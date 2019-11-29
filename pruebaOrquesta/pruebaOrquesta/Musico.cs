@@ -12,15 +12,15 @@ namespace pruebaOrquesta
     public string apellido;
     public int edad;
     public Instrumento instrumento;
-    public Orquesta orquesta;
+    //public Orquesta orquesta;
 
-    public Musico(string nombre, string apellido, int edad, Instrumento ints, Orquesta orqs) {
+    public Musico(string nombre, string apellido, int edad, Instrumento ints) {
 
       this.nombre = nombre;
       this.apellido = apellido;
       this.edad = edad;
       this.instrumento = ints;
-      this.orquesta = orqs;
+      //this.orquesta = orqs;
       
     }
 

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pruebaOrquesta", "pruebaOrquesta\pruebaOrquesta.csproj", "{8FC2BC2E-0367-488E-8F0C-F3A686D20E0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FC2BC2E-0367-488E-8F0C-F3A686D20E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC2BC2E-0367-488E-8F0C-F3A686D20E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC2BC2E-0367-488E-8F0C-F3A686D20E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC2BC2E-0367-488E-8F0C-F3A686D20E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F3239F3-ACCA-47C9-8AE6-F71272154774}
+	EndGlobalSection
+EndGlobal

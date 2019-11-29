@@ -1,0 +1,7 @@
+C:\Users\alumno\Desktop\primeraClaseC#\pruebaOrquesta\pruebaOrquesta\bin\Debug\pruebaOrquesta.exe.config
+C:\Users\alumno\Desktop\primeraClaseC#\pruebaOrquesta\pruebaOrquesta\bin\Debug\pruebaOrquesta.exe
+C:\Users\alumno\Desktop\primeraClaseC#\pruebaOrquesta\pruebaOrquesta\bin\Debug\pruebaOrquesta.pdb
+C:\Users\alumno\Desktop\primeraClaseC#\pruebaOrquesta\pruebaOrquesta\obj\Debug\pruebaOrquesta.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\primeraClaseC#\pruebaOrquesta\pruebaOrquesta\obj\Debug\pruebaOrquesta.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\primeraClaseC#\pruebaOrquesta\pruebaOrquesta\obj\Debug\pruebaOrquesta.exe
+C:\Users\alumno\Desktop\primeraClaseC#\pruebaOrquesta\pruebaOrquesta\obj\Debug\pruebaOrquesta.pdb

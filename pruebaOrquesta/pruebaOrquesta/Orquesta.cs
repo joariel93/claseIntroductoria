@@ -66,7 +66,6 @@ namespace pruebaOrquesta
     public static void ImprimirOrquesta(Orquesta or)
     {
       StringBuilder sb = new StringBuilder();
-      int i;
       sb.AppendLine(or.getOrquestaToString());
       if (or.musicos.Count > 0)
       {
@@ -76,6 +75,9 @@ namespace pruebaOrquesta
           sb.AppendFormat("Musico: {0}\n",element.nombre);
           sb.AppendFormat("Instrumento: {0}\n", element.instrumento.nombre);
         }
+      }else
+      {
+        sb.AppendFormat("NO HAY MUSICOS EN ESTA ORQUESTA");
       }
       Console.WriteLine("{0}", sb.ToString());
       Console.ReadLine();

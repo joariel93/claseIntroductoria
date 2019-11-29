@@ -26,6 +26,11 @@ namespace pruebaOrquesta
       or.musicos.Add(musicoSecundario);
 
       Orquesta.ImprimirOrquesta(or);
+
+      Orquesta or2 = new Orquesta("La Pandilla de Liniers", "Liniers", Orquesta.TipoOrquesta.Camara);
+
+      Orquesta.ImprimirOrquesta(or2);
+
     }
   }
 }
